@@ -22,4 +22,39 @@ This project is a frontend animation challenge to replicate a specific animation
 - **Framer Motion** (optional, for smooth performant animations)
 - **Vercel** (for deployment)
 
-## 📚 Project Structure
+# 🚀 How to Run the Project Locally
+Follow these steps to set up and run the project on your local machine:
+
+## 1️⃣ Clone the Repository
+
+- **git clone https://github.com/DharshiniDuraisamy03/elevate-animation.git**
+- **cd elevate-animation**
+
+## 2️⃣ Install Dependencies
+
+- **npm install**
+Make sure Node.js and npm are installed on your system.
+
+📦 Installing Tailwind CSS & Framer Motion (If setting up manually)
+If you need to set up Tailwind CSS and Framer Motion manually, here’s how:
+
+- **npm install -D tailwindcss postcss autoprefixer**
+- **npx tailwindcss init -p**
+- **npm install framer-motion**
+
+  
+## 3️⃣ Start the Development Server
+
+- **npm run dev**
+The app should now be running at:
+http://localhost:5173
+(or whichever port Vite assigns — it’ll be shown in your terminal)
+
+## 🛠️ Build for Production
+
+To generate a production-ready build:
+- **npm run build**
+The output will be in the dist/ folder.
+
+## 🌐 Live Demo
+Live Link: https://dharshiniduraisamy03.github.io/elevate-animation/
